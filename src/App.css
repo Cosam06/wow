@@ -1,0 +1,113 @@
+/* App.css */
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 2em;
+    font-weight: 600;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background: linear-gradient(145deg, #ffffff, #e0e0e0);
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(145deg, #f9f9f9, #e0e0e0);
+  }
+  
+  .card-header {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #808183;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #383838;
+    padding-bottom: 5px;
+  }
+  
+  .card-body {
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .card-body p {
+    margin: 5px 0;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.2s ease;
+  }
+  
+  .search-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  .App {
+    text-align: center; /* Center-aligns text inside the App component */
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #555;
+  }
